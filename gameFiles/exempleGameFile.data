@@ -1,0 +1,17 @@
+Ceci est le texte du contexte --> jusqu'a 499 car.
+Ceci est le texte de la deuxieme partie --> jusqu'a 499 car.
+Ceci est le texte si le joueur meurt --> jusqu'a 499 car.
+Ceci est le texte si le joueur gagne --> jusqu'a 499 car.
+2   //NOMBRE DE MONSTRE PARTIE 1
+PremierMonstre      //SON NOM
+1   //SON TYPE
+DeuxiemeMonstre     //SON NOM
+1   //SON TYPE
+5   //NOMBRE DE MONSTRE PARTIE 2
+PremierMonstre      //SON NOM
+1   //SON TYPE
+DeuxiemeMonstre     //SON NOM
+1   //SON TYPE
+....
+....
+....
