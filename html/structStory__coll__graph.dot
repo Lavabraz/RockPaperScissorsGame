@@ -1,0 +1,11 @@
+digraph "Story"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Story",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Composé de 4 str chacun étant un texte d'une partie de l'histoire pour une partie...."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Part1\nPart2" ,fontname="Helvetica"];
+  Node2 [label="FileMob",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFileMob.html",tooltip="Composé de deux pointeurs sur des ElementMob (structure précécente) qui sont le début et la fin de la..."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" end\nstart" ,fontname="Helvetica"];
+  Node3 [label="ElementMob",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structElementMob.html",tooltip="Composé d'un Mob (structure précédente) et d'un pointeur sur un autre ElementMob Cette structure est ..."];
+}

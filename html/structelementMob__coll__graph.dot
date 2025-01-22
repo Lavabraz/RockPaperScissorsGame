@@ -1,0 +1,10 @@
+digraph "elementMob"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="elementMob",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mob" ,fontname="Helvetica"];
+  Node2 [label="Mob",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structMob.html",tooltip="Composé d'un nom, d'un nombre de pv et d'un nombre de pa Cette structure est utilisé pour stocker les..."];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" suiv" ,fontname="Helvetica"];
+}

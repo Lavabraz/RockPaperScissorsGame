@@ -1,0 +1,17 @@
+digraph "/home/lavabrazz/Cours/Algo et Structure de Données/SAE/sae-1.02/game.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/lavabrazz/Cours\l/Algo et Structure de\l Données/SAE/sae-1.02\l/game.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Include + def des structures + prototypes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/home/lavabrazz/Cours\l/Algo et Structure de\l Données/SAE/sae-1.02\l/game.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html",tooltip="Main du programme."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/lavabrazz/Cours\l/Algo et Structure de\l Données/SAE/sae-1.02\l/initialisation.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$initialisation_8c.html",tooltip="Contient les fonctions principales du programme."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/lavabrazz/Cours\l/Algo et Structure de\l Données/SAE/sae-1.02/mob.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mob_8c.html",tooltip="Contient toutes les fonctions en rapport avec les monstres."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/lavabrazz/Cours\l/Algo et Structure de\l Données/SAE/sae-1.02\l/player.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$player_8c.html",tooltip="Contient toutes les fonctions en rapport avec le/les joueurs."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/lavabrazz/Cours\l/Algo et Structure de\l Données/SAE/sae-1.02\l/score.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$score_8c.html",tooltip="Contient toutes les fonctions en rapport avec le/les scores."];
+}
