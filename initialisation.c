@@ -125,7 +125,7 @@ void combatPhase1(Joueur *j, Story story)
             printf("Votre score est de %d.\n", j->score);
             return;
         }
-        if (m.start->mob.pv == 0)
+        if (m.start->mob.pv <= 0)
         {
             printf("Vous avez défait %s !\n", teteFileMob(m).nom);
             j->score += 50*m.start->mob.type;
@@ -142,7 +142,7 @@ void combatPhase2(Joueur *j, Story story)
     {
         printf("Le monstre %s (%d pv, %d pa) s'avance pour tenter sa chance !\n", teteFileMob(m).nom, teteFileMob(m).pv, teteFileMob(m).pa);
         fightMob(j, &m.start->mob);
-        if (m.start->mob.pv == 0)
+        if (m.start->mob.pv <= 0)
         {
             printf("Vous avez défait %s !\n", teteFileMob(m).nom);
             j->score += 100*m.start->mob.type;
@@ -150,7 +150,7 @@ void combatPhase2(Joueur *j, Story story)
         }
         else bougerTete(&m);
     }
-    if(j->pv == 0)
+    if(j->pv <= 0)
     {
         printf("%s\n", story.deathText);
         printf("Votre score est de %d.\n", j->score);
